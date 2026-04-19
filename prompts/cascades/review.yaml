@@ -1,0 +1,38 @@
+# Review-Kaskade
+# Wird am Ende einer Werkstatt-Session zur Reflexion ausgeführt.
+name: review
+description: Abschluss-Review für eine SPECFORCE-Werkstatt-Session
+version: "1.0"
+
+steps:
+  - step: ergebnisse
+    prompt: |
+      Fasse die Ergebnisse dieser Session zusammen:
+
+      1. Was wurde erreicht? (✅ Erledigtes)
+      2. Was wurde nicht erreicht? (❌ Offenes)
+      3. Was hat sich geändert? (🔄 Erkenntnisse)
+
+      Sei ehrlich und konkret – diese Zusammenfassung dient als
+      Basis für die nächste Session.
+
+  - step: lessons-learned
+    prompt: |
+      Reflexion über die Arbeitsweise in dieser Session:
+
+      - Was hat gut funktioniert?
+      - Was hätte besser laufen können?
+      - Welche Tools/Methoden haben sich bewährt?
+
+      Dokumentiere 1–3 konkrete Verbesserungsideen für zukünftige Sessions.
+
+  - step: naechste-session
+    prompt: |
+      Vorbereitung für die nächste Session:
+
+      - Was ist der nächste logische Schritt im Projekt?
+      - Welche Informationen müssen bereitgestellt werden?
+      - Wann findet die nächste Session statt?
+
+      Trage die Antworten in sessions/current/context.md ein und
+      archiviere dann die Session mit: bash scripts/archive-session.sh

@@ -1,0 +1,25 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "workbench.colorTheme": "Default Dark+",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 22,
+    "terminal.integrated.fontSize": 13
+  },
+  "extensions": {
+    "recommendations": [
+      "github.copilot",
+      "github.copilot-chat",
+      "redhat.vscode-yaml",
+      "yzhang.markdown-all-in-one"
+    ]
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.defaultProfile.osx": "bash",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "explorer.sortOrder": "type",
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.startupEditor": "none",
+  "files.exclude": {
+    "sessions/.archive/**": false,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true
+  },
+  "specforce.sessionDir": "${workspaceFolder}/sessions",
+  "specforce.promptDir": "${workspaceFolder}/prompts"
+}

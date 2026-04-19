@@ -1,0 +1,12 @@
+# Session-Daten (auto-generiert, nicht versioniert)
+sessions/current/
+sessions/.archive/
+
+# OS-spezifische Dateien
+.DS_Store
+Thumbs.db
+
+# Editor-temporäre Dateien
+*.swp
+*.swo
+*~

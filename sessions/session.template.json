@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "session_id": null,
+  "session_name": null,
+  "created_at": null,
+  "updated_at": null,
+  "status": "idle",
+  "phase": null,
+  "context": {},
+  "history": [],
+  "prompts_executed": []
+}

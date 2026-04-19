@@ -1,0 +1,38 @@
+# Basis-Kaskade
+# Wird zu Beginn jeder neuen Werkstatt-Session ausgeführt.
+name: basis
+description: Basis-Initialisierung für eine neue SPECFORCE-Werkstatt-Session
+version: "1.0"
+
+steps:
+  - step: orientierung
+    prompt: |
+      Du startest eine neue Werkstatt-Session in SPECFORCE.
+
+      Beantworte die folgenden Fragen, um die Session zu strukturieren:
+
+      1. Was ist das Hauptziel dieser Session?
+      2. Welche Voraussetzungen müssen erfüllt sein?
+      3. Was ist der erwartete Output am Ende der Session?
+
+      Halte die Antworten präzise und handlungsorientiert.
+
+  - step: kontext-aufbau
+    prompt: |
+      Beschreibe den aktuellen Kontext dieser Werkstatt-Session:
+
+      - Projektstand: Was wurde bisher erreicht?
+      - Offene Punkte: Was muss noch erledigt werden?
+      - Abhängigkeiten: Welche externen Faktoren beeinflussen die Session?
+
+      Trage die Erkenntnisse in sessions/current/context.md ein.
+
+  - step: erste-massnahme
+    prompt: |
+      Definiere die erste konkrete Maßnahme dieser Session:
+
+      - Was wird als erstes gemacht?
+      - Wer ist verantwortlich?
+      - Wie lange wird es dauern?
+
+      Beginne mit der Umsetzung sobald dieser Schritt abgeschlossen ist.

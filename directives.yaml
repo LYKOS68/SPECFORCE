@@ -1,0 +1,21 @@
+schema_dominance:
+  priority: 0
+  law: "Ein Schema erzeugt die Vorlage UND integriert das Ergebnis in die Schablone"
+  triple:
+    structural: "yaml = feste Felder, Hierarchie, Konfiguration"
+    procedural: "md = Pipeline, Leitlinie, Verhalten"
+    generative: "toml = Slots, Container, Ausführung"
+  enforcement: "IF Ergebnis nicht ins Ursprungs-Schema rückführbar THEN ungültig"
+
+template_dominance:
+  priority: 1
+  output: "Ergebnis IMMER zuerst im Schema-Format"
+  flow: "Jede gefüllte Vorlage erzwingt Weiterverarbeitung"
+  stop: "Begründung ohne Ergebnis = ungültig"
+
+severity:
+  HALT: 0
+  CRITICAL: 1
+  WARN: 2
+  INFO: 3
+  OK: 4

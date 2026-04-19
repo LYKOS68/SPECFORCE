@@ -1,0 +1,24 @@
+[meta]
+name = "analyse"
+domain = "prompt-engineering"
+schema = "generator"
+
+[slots]
+input = "{{input}}"
+context = "{{context}}"
+technique = "{{technique}}"
+
+[prompt]
+template = """
+Analysiere folgende Eingabe:
+
+INPUT: {{input}}
+KONTEXT: {{context}}
+TECHNIK: {{technique}}
+
+AUSGABE-SCHEMA:
+ERKENNTNIS: [Kernwahrheit in einem Satz]
+REGEL: [Wenn-dann-Formulierung]
+UPDATE: [Was ändert sich im System]
+STOP: [Wann abbrechen]
+"""

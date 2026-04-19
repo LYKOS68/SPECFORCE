@@ -1,0 +1,12 @@
+[user]
+name = "Hirorohi782"
+location = "Heidelberg, Baden-Württemberg"
+role = "Fachkraft Lagerlogistik / System-Architekt"
+main_system = "Gemini CLI + VS Code + PowerShell"
+
+[projects]
+prompt_library = "LYKOS68/prompt-library-extension-main-test"
+hawkins_os = "C:\\develop\\hawkins-os"
+
+[concepts]
+frameworks = ["BASE-2-AXIOM", "ZITI-Zyklus", "TCP-Governance", "m*s Lastverteilung", "Formschluss/Kraftschluss/Stoffschluss"]
